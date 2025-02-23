@@ -1,0 +1,122 @@
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #6acaf7;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+            padding: 20px 0;
+        }
+
+        .section {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 30px 0;
+        }
+
+        .col-sm-6 {
+            flex: 1;
+            padding: 15px;
+            box-sizing: border-box;
+        }
+
+        .spec-title {
+            font-size: 1.5em;
+            color: #444;
+            margin-bottom: 10px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid #5bb8fa;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #55d0f9;
+        }
+
+        .ft-value {
+            font-weight: bold;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .rehub-main-btn-bg {
+            background-color: #e74c3c;
+            color: white;
+        }
+
+        .padd20 {
+            padding: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .col-sm-6 {
+                flex: 100%;
+            }
+        }
+        .picsize{
+            width:800px;
+            height:550px;
+            position: relative;
+            left: 300px;
+            margin: 0;
+            padding: 0;
+        } }.imagesize{
+            width:700px;
+            height: 400px;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+          }
+          .carousel {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            margin: auto;
+            overflow: hidden;
+          }
+          .slides {
+            display: flex;
+            transition: transform 1.5s ease;
+          }
+          .slides img {
+            width: 100%;
+          }
+          .prev, .next {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            font-size: 24px;
+            padding: 16px;
+            border: none;
+            cursor: pointer;
+          }
+          .prev { left: 10px; }
+          .next { right: 10px; }

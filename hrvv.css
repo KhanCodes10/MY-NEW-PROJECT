@@ -1,0 +1,253 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and General Layout */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #61c4fe;
+    color: #333;
+}
+
+span {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 20px;
+    display: block;
+    text-align: center;
+}
+
+.specs-accordion-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Table Styling */
+.table-responsive {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #0077b6;
+    color: white;
+}
+
+.white-row {
+    background-color: #f9f9f9;
+}
+
+.gray-row {
+    background-color: #f0f0f0;
+}
+
+/* Headings */
+.specs-group .heading-wrap {
+    margin-bottom: 20px;
+}
+
+.specs-group h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #0077b6;
+    text-align: left;
+    padding: 5px;
+}
+
+/* Accordion and Content Visibility */
+.open {
+    display: block;
+}
+
+.specs-group {
+    margin-bottom: 40px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    table, th, td {
+        font-size: 0.9rem;
+    }
+
+    .specs-group h3 {
+        font-size: 1.2rem;
+    }
+}.specs-group {
+    margin-bottom: 30px;
+}
+
+.specs-group .heading-wrap {
+    background-color: #1a1a1a;
+    padding: 12px;
+    margin-bottom: 10px;
+}
+
+.specs-group .heading-wrap h3 {
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    margin: 0;
+}
+
+.table-responsive {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse:collapse;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+}
+
+th {
+    background-color: #e6e6e6;
+    color: #333;
+}
+
+.white-row {
+    background-color: #fff;
+}
+
+.gray-row {
+    background-color: #f2f2f2;
+}
+
+td, th {
+    border: 1px solid #ddd;
+}
+
+.white-row td {
+    color: #333;
+}
+
+.gray-row td {
+    color: #555;
+}
+
+/* For handling the vertical alignment and ensuring the content is aligned properly in each row */
+td, th {
+    vertical-align: middle;
+}
+
+/* Adding a hover effect for better UX */
+tr:hover {
+    background-color: #dcdcdc;
+}
+
+/* Optional: Add border to the table for better separation */
+table {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #65b8ed;
+            padding: 20px;
+        }
+
+        table {
+            width: 100%;
+            margin: 20px 0;
+            border-collapse: collapse;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #ffffff;
+        }
+
+        tr.white-row {
+            background-color: #ffffff;
+        }
+
+        tr.gray-row {
+            background-color: #f2f2f2;
+        }
+
+        sup {
+            font-size: 0.8em;
+        }
+        .picsize{
+            width:600px;
+            height:400px;
+            position: relative;
+            left: 800px;
+            margin-bottom: 0;}
+            .imagesize{
+                width:700px;
+                height: 400px;
+            }
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+              }
+              .carousel {
+                position: relative;
+                width: 100%;
+                max-width: 600px;
+                margin: auto;
+                overflow: hidden;
+              }
+              .slides {
+                display: flex;
+                transition: transform 1.5s ease;
+              }
+              .slides img {
+                width: 100%;
+              }
+              .prev, .next {
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                background-color: rgba(0, 0, 0, 0.5);
+                color: white;
+                font-size: 24px;
+                padding: 16px;
+                border: none;
+                cursor: pointer;
+              }
+              .prev { left: 10px; }
+              .next { right: 10px; }
